@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Periodístico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .article {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        a {
+            text-decoration: none;
+            color: #0073e6;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Portafolio Periodístico</h1>
+        <h2>Sebastián Facundo Bustos Gómez</h2>
+        <h3>Licenciado de USAL | Idiomas: Inglés y Alemán</h3>
+        
+        <div class="article">
+            <h3>El Túnel Cafetero</h3>
+            <p>Explorando el impacto del café en la cultura y la economía. Un análisis profundo sobre la industria cafetera y su influencia...</p>
+            <a href="https://eltunelcafetero.wordpress.com/" target="_blank">Leer más</a>
+        </div>
+
+        <div class="article">
+            <h3>Muerte al Infiel y Libertad de Expresión en Suecia</h3>
+            <p>Un debate sobre los límites de la libertad de expresión en Europa y su impacto en la sociedad...</p>
+            <a href="https://iky.b07.myftpupload.com/mundo/muerte-al-infiel-y-libertad-de-expresion-en-suecia/" target="_blank">Leer más</a>
+        </div>
+    </div>
+</body>
+</html>
